@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Simple Blog",
+    "description": "An application for creating and maintaining a simple blog with the ability to put photos and text in posts",
+    "slug": "react-native-simple-blog-app",
+    "privacy": "public",
+    "sdkVersion": "38.0.0",
+    "platforms": ["android", "ios"],
+    "version": "1.8.14",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#242833"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 2000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "edu.sxidsvit.simpleblogapp",
+      "buildNumber": "1.8.14"
+    },
+    "android": {
+      "package": "edu.sxidsvit.simpleblogapp",
+      "versionCode": 3,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
